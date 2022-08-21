@@ -7,5 +7,6 @@ setInterval(() => {document.title = titles[4]},800);
 setInterval(() => {document.title = titles[5]},900);
 
 window.onload = function() {
+    var context = new AudioContext();
     document.getElementById("audio").play();
 }
